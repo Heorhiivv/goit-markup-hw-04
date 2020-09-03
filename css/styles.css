@@ -145,12 +145,13 @@ color: var(--accent-color);
 
 /********** HERO ***********/
 .hero {
+  display: flex;
   min-height: 600px;
-
+  
   background-color: var(--third-bg-color);
 }
 .hero-items {
-  min-width: 726px;
+  max-width: 726px;
   padding: 0 15px;
   text-align: center;
   margin: auto;
