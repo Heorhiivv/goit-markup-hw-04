@@ -13,17 +13,17 @@
    
   <!--Header-->
   <header class="page-header">
-    <div class="container header-items">
+    <div class="container header-parts">
         <nav class="page-header-nav">
           <a href="./index.html" class="logo link">Web<span class="logo-header">Studio</span>
           </a>
           <!-- Site-nav -->
-          <ul class="site-nav list">
+          <ul class="list site-nav">
             <li class="site-nav-item">
-              <a href="./index.html" class="link">Студия</a>
+              <a href="./index.html" class="link current">Студия</a>
             </li>
             <li class="site-nav-item">
-              <a href="./portfolio.html" class="link current">Портфолио</a>
+              <a href="./portfolio.html" class="link">Портфолио</a>
             </li>
             <li class="site-nav-item">
               <a href="" class="link">Контакты</a>
@@ -31,12 +31,12 @@
           </ul>
         </nav>
         <address class="header-address">
-          <ul class="header-contacts list">
-            <li class="header-contacts-item">
-              <a href="mailto:info@devstudio.com" class="link">info@devstudio.com</a>
+          <ul class="list header-address-list">
+            <li class="header-address-item">
+              <a href="mailto:info@devstudio.com" class="contacts link">info@devstudio.com</a>
             </li>
-            <li class="header-contacts-item">
-              <a href="tel:380961111111" class="link">+38 096 111 11 11</a>
+            <li class="header-address-item">
+              <a href="tel:380961111111" class="contacts link">+38 096 111 11 11</a>
             </li>
           </ul>
         </address>
@@ -65,7 +65,7 @@
         </div> -->
   
       <!-- projects -->
-      <h2 style="display: none;">Наши проекты</h2>
+      <h2 class="title is-hidden">Наши проекты</h2>
       <ul class="projects list">
         <li class="projects-item">
           <a href="" class="tehnokryak">
@@ -159,21 +159,35 @@
    <!--Footer-->
    <footer class="footer">
     <div class="container">
+      <div class="first-footer-column">
         <a href="./index.html" class="logo link">Web<span class="logo-footer">Studio</span></a>
-          <address>
-            <ul class="list">
-              <li class="office-address">
+          <address class="footer-address">
+            <ul class="list footer-address-list">
+              <li class="footer-address-item">
                 <p>г. Киев, пр-т Леси Украинки, 26</p>
               </li>
-              <li class="footer-mailto">
-                <a href="mailto:info@devstudio.com" class="footer-contatcs link">info@devstudio.com</a>
+              <li class="footer-address-item">
+                <a href="mailto:info@devstudio.com" class="contacts link">info@devstudio.com</a>
               </li>
-              <li>
-                <a href="tel:380961111111" class="footer-contatcs link">+38 096 111 11 11</a>
+              <li class="footer-address-item">
+                <a href="tel:380961111111" class="contacts link">+38 096 111 11 11</a>
               </li>
             </ul>
           </address>
+        </div>
+
+    <div class="second-footer-column">
+      <p>Присоединяйтесь</p>
+        <ul class="list">
+          <li><a href="" class="social-media" aria-label="Instagram link">Instagram</a></li>
+          <li><a href="" class="social-media" aria-label="Twitter link">Twitter</a></li>
+          <li><a href="" class="social-media" aria-label="Facebook link">Facebook</a></li>
+          <li><a href="" class="social-media" aria-label="Linkedin link">Linkedin</a></li>
+        </ul>
+    </div>
+
     </div>
   </footer>
+
 </body>
 </html>
