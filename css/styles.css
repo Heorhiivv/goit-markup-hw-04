@@ -53,9 +53,13 @@ img {
   padding-right: 15px;
   margin: 0 auto;
 }
+.section {
+  padding-top: 94px;
+  padding-bottom: 94px;
+}
 /********** HEADER ***********/
 .page-header {
-  border: 1px solid #ECECEC;
+  border-bottom: 1px solid #ECECEC;
 }
 .header-items {
   display: flex;
@@ -102,6 +106,7 @@ img {
   display: block;
   padding-top: 32px;
   padding-bottom: 32px;
+  color: var(--primary-text-color);
 }
 .site-nav-item:not(:last-child) {
   margin-right: 50px;
@@ -209,12 +214,10 @@ color: var(--accent-color);
 
   color: var(--primary-text-color);
 }
-.advantages {
+.advantages-list {
   display: flex;
-  padding-top: 94px;
-  padding-bottom: 94px;
 }
-.advantages p {
+.advantages-list p {
   font-size: 14px;
   line-height: 1.714;
   letter-spacing: 0.03em;
@@ -231,7 +234,9 @@ color: var(--accent-color);
 
 /* ********FEATURES********* */
 .features {
-  padding-bottom: 94px;
+  padding-top: 0;
+}
+.features-list {
   display: flex;
 }
 .features-item:not(:last-child) {
@@ -292,10 +297,6 @@ color: var(--accent-color);
 /******* OUR-TEAM  END*******/
 
 /* *******CLIENTS********* */
-.clients-section {
-  padding-top: 94px;
-  padding-bottom: 94px;
-}
 .clients-list {
   display: flex;
 }
@@ -366,12 +367,16 @@ color: var(--accent-color);
 /********** FOOTER END*********/
 
 /* PORTFOLIO*/
-.portfolio {
-  padding-top: 94px;
-  padding-bottom: 94px;
-}
 .radio-btn {
   margin-bottom: 50px;
+  text-align: center;
+}
+.radio-btn .a {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.625;
+  letter-spacing: 0.03em;
+
   text-align: center;
 }
 .btn {
