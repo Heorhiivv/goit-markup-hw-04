@@ -198,7 +198,6 @@ color: var(--accent-color);
   padding: 25px 100px;
   border: 1px solid transparent;
   border-radius: 4px;
-
   
   background-color: var(--secondary-bg-color);
 }
@@ -226,6 +225,9 @@ color: var(--accent-color);
   padding: 0px;
 
   color: var(--secondary-text-color);
+}
+.advantages-item {
+  width: 270px;
 }
 .advantages-item:not(:last-child) {
   margin-right: 30px;
@@ -326,7 +328,6 @@ color: var(--accent-color);
 
 /* ********FOOTER ***********/
 .footer {
-  width: 1600px;
   margin: 0 auto;
 
   padding-top: 60px;
